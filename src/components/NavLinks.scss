@@ -1,0 +1,24 @@
+.AppBar{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    .Toolbar{
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .Typography{
+            position: absolute;
+            left: 0;
+            margin-left: 20px;
+        }
+        .button-container{
+            position: absolute;
+            right: 0;
+            margin-right: 20px;
+        }
+    }
+}
